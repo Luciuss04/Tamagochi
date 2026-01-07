@@ -3,7 +3,8 @@ package org.example;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hola Git");
+        int opcion = menuPrincipal();
+        System.out.println("Opción elegida: " + opcion);
     }
 }
 private static int menuPrincipal() {
