@@ -6,10 +6,10 @@ public class Main {
         int opcion = menuPrincipal();
         System.out.println("Opción elegida: " + opcion);
     }
-}
-private static int menuPrincipal() {
-    Scanner sc = new Scanner(System.in);
-    int opcion;
+
+    private static int menuPrincipal() {
+        java.util.Scanner sc = new java.util.Scanner(System.in);
+        int opcion;
 
     do {
         System.out.println("1. Estado");
