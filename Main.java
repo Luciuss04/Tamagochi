@@ -27,11 +27,7 @@ public class Main {
 
             opcion = sc.nextInt();
 
-        if (opcion < 0 || opcion > 4) {
-            System.out.println("Opción no válida. Inténtelo de nuevo.\n");
-        }
-
-    } while (opcion < 0 || opcion > 4);
+        } while (opcion < 0 || opcion > 4);
 
     return opcion;
 }
