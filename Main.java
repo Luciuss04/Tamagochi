@@ -20,11 +20,10 @@ public class Main {
             System.out.println("0. Salir");
             System.out.print("Seleccione una opción del menú: ");
 
-        while (!sc.hasNextInt()) {
-            System.out.println("Opción no válida. Introduzca un número.");
-            sc.next(); // descartar entrada incorrecta
-            System.out.print("Seleccione una opción del menú: ");
-        }
+            while (!sc.hasNextInt()) {
+                sc.next();
+                System.out.print("Seleccione una opción válida: ");
+            }
 
         opcion = sc.nextInt();
 
