@@ -25,7 +25,7 @@ public class Main {
                 System.out.print("Seleccione una opción válida: ");
             }
 
-        opcion = sc.nextInt();
+            opcion = sc.nextInt();
 
         if (opcion < 0 || opcion > 4) {
             System.out.println("Opción no válida. Inténtelo de nuevo.\n");
