@@ -11,14 +11,14 @@ public class Main {
         java.util.Scanner sc = new java.util.Scanner(System.in);
         int opcion;
 
-    do {
-        System.out.println("1. Estado");
-        System.out.println("2. Comer");
-        System.out.println("3. Jugar");
-        System.out.println("4. Dormir");
-        System.out.println("----------------");
-        System.out.println("0. Salir");
-        System.out.print("Seleccione una opción del menú: ");
+        do {
+            System.out.println("1. Estado");
+            System.out.println("2. Comer");
+            System.out.println("3. Jugar");
+            System.out.println("4. Dormir");
+            System.out.println("----------------");
+            System.out.println("0. Salir");
+            System.out.print("Seleccione una opción del menú: ");
 
         while (!sc.hasNextInt()) {
             System.out.println("Opción no válida. Introduzca un número.");
