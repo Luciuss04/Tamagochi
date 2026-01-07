@@ -29,5 +29,6 @@ public class Main {
 
         } while (opcion < 0 || opcion > 4);
 
-    return opcion;
+        return opcion;
+    }
 }
