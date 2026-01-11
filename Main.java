@@ -144,9 +144,8 @@ public class Main {
             System.out.println("No tengo sueño");
         } else {
             energia += 3;
-            if (energia > 10) {
-                energia = 10;
-            }
+            if (energia > 10) energia = 10;
+
             saciedad -= 3;
             diversion -= 2;
             System.out.println("😴 El tamagotchi ha dormido");
