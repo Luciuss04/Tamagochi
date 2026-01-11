@@ -75,5 +75,8 @@ public class Main {
             diversion -= 1;
             System.out.println("🍽️ El tamagotchi ha comido");
         }
+
+        // Mostrar estado actualizado
+        mostrarEstado();
     }
 }
