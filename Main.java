@@ -60,6 +60,7 @@ public class Main {
 
     private static void mostrarEstado() {
 
+        // FIN DEL JUEGO
         if (saciedad == 0 || energia == 0 || diversion == 0) {
             System.out.println("💀 FIN DEL JUEGO");
         } else if (saciedad > 5 && energia > 5 && diversion > 5) {
