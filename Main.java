@@ -74,21 +74,16 @@ public class Main {
         if (saciedad >= 10) {
             System.out.println("No tengo hambre");
         } else {
-            saciedad += 2;
-            if (saciedad > 10) saciedad = 10;
-
-            energia -= 1;
-            diversion += 1;
-
-            if (energia < 0) energia = 0;
-            if (diversion > 10) diversion = 10;
-
+            saciedad += 3;
+            if (saciedad > 10) {
+                saciedad = 10;
+            }
+            diversion -= 1;
             System.out.println("🍽️ El tamagotchi ha comido");
         }
 
         mostrarEstado();
     }
-
 
     private static void jugar() {
 
@@ -96,14 +91,11 @@ public class Main {
             System.out.println("Ahora no me apetece jugar");
         } else {
             diversion += 3;
-            if (diversion > 10) diversion = 10;
-
-            saciedad -= 2;
-            energia -= 2;
-
-            if (saciedad < 0) saciedad = 0;
-            if (energia < 0) energia = 0;
-
+            if (diversion > 10) {
+                diversion = 10;
+            }
+            saciedad -= 1;
+            energia -= 1;
             System.out.println("🎮 El tamagotchi ha jugado");
         }
 
@@ -115,17 +107,16 @@ public class Main {
         if (energia >= 10) {
             System.out.println("No tengo sueño");
         } else {
-            energia += 4;
-            if (energia > 10) energia = 10;
-
-            saciedad -= 2;
-            diversion -= 1;
-
-            if (saciedad < 0) saciedad = 0;
-            if (diversion < 0) diversion = 0;
-
+            energia += 3;
+            if (energia > 10) {
+                energia = 10;
+            }
+            saciedad -= 3;
+            diversion -= 2;
             System.out.println("😴 El tamagotchi ha dormido");
         }
 
+        // Mostrar estado tras dormir
         mostrarEstado();
     }
+}
