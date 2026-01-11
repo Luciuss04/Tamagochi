@@ -44,6 +44,9 @@ bin/
 /nbdist/
 /.nb-gradle/
 
-# Sistema operativo
+### VS Code ###
+.vscode/
+
+### Mac OS ###
 .DS_Store
 Thumbs.db
