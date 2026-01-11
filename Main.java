@@ -110,6 +110,8 @@ public class Main {
             if (saciedad > 10) saciedad = 10;
 
             diversion -= 1;
+            if (diversion < 0) diversion = 0;
+
             System.out.println("🍽️ El tamagotchi ha comido");
         }
 
