@@ -17,6 +17,9 @@ public class Main {
             case 2:
                 comer();
                 break;
+            case 3:
+                jugar();
+                break;
             case 0:
                 System.out.println("Saliendo del juego...");
                 break;
