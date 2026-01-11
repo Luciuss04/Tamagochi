@@ -20,6 +20,9 @@ public class Main {
             case 3:
                 jugar();
                 break;
+            case 4:
+                dormir();
+                break;
             case 0:
                 System.out.println("Saliendo del juego...");
                 break;
