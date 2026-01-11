@@ -5,11 +5,10 @@
 # Gradle
 .gradle/
 build/
-
-# Repositorios embebidos
-repo_limpio/
-
-# Archivos de compilación
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+.kotlin
 *.class
 .idea/
 
