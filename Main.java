@@ -8,6 +8,7 @@ public class Main {
     static int diversion = 6;
 
     public static void main(String[] args) {
+
         int opcion = menuPrincipal();
 
         if (opcion == 1) {
