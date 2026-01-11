@@ -124,9 +124,8 @@ public class Main {
             System.out.println("Ahora no me apetece jugar");
         } else {
             diversion += 3;
-            if (diversion > 10) {
-                diversion = 10;
-            }
+            if (diversion > 10) diversion = 10;
+
             saciedad -= 1;
             energia -= 1;
             System.out.println("🎮 El tamagotchi ha jugado");
