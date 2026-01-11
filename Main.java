@@ -41,4 +41,19 @@ public class Main {
 
         return opcion;
     }
+
+    private static void mostrarEstado() {
+
+        if (saciedad == 0 || energia == 0 || diversion == 0) {
+            System.out.println("💀 FIN DEL JUEGO");
+        } else if (saciedad > 5 && energia > 5 && diversion > 5) {
+            System.out.println("😄 TAMAGOTCHI CONTENTO");
+        } else if (diversion <= 4) {
+            System.out.println("😢 TAMAGOTCHI TRISTE");
+        } else if (energia <= 4) {
+            System.out.println("😴 TAMAGOTCHI CANSADO");
+        } else if (saciedad <= 4) {
+            System.out.println("🍽️ TAMAGOTCHI HAMBRIENTO");
+        }
+    }
 }
