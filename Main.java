@@ -22,8 +22,6 @@ public class Main {
                 System.out.println("Saliendo del juego...");
                 break;
         }
-
-        System.out.println("Opción elegida: " + opcion);
     }
 
     private static int menuPrincipal() {
