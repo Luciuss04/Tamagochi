@@ -62,15 +62,42 @@ public class Main {
 
         // FIN DEL JUEGO
         if (saciedad == 0 || energia == 0 || diversion == 0) {
-            System.out.println("💀 FIN DEL JUEGO");
-        } else if (saciedad > 5 && energia > 5 && diversion > 5) {
-            System.out.println("😄 TAMAGOTCHI CONTENTO");
-        } else if (diversion <= 4) {
-            System.out.println("😢 TAMAGOTCHI TRISTE");
-        } else if (energia <= 4) {
-            System.out.println("😴 TAMAGOTCHI CANSADO");
-        } else if (saciedad <= 4) {
-            System.out.println("🍽️ TAMAGOTCHI HAMBRIENTO");
+            System.out.println("(x_x) :( Game Over ):");
+            System.out.println(" /|_|\\");
+            System.out.println("  | |");
+            return;
+        }
+
+        // CONTENTO
+        if (saciedad > 5 && energia > 5 && diversion > 5) {
+            System.out.println("(•‿•) ¡Estoy feliz!");
+            System.out.println(" /|_|\\");
+            System.out.println("  | |");
+            return;
+        }
+
+        // TRISTE
+        if (diversion <= 4) {
+            System.out.println("(-︵-) Estoy aburrido");
+            System.out.println(" /|_|\\ ¡Juega conmigo!");
+            System.out.println(" / \\");
+            return;
+        }
+
+        // CANSADO
+        if (energia <= 4) {
+            System.out.println("(-_-) Zzz");
+            System.out.println(" /|_|\\");
+            System.out.println("  | |");
+            return;
+        }
+
+        // HAMBRIENTO
+        if (saciedad <= 4) {
+            System.out.println("(•︵•) ¡Tengo hambre! 🍗");
+            System.out.println(" /|x|\\");
+            System.out.println("  | |");
+            return;
         }
     }
 
