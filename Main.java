@@ -96,7 +96,24 @@ public class Main {
             System.out.println("🎮 El tamagotchi ha jugado");
         }
 
-        // Mostrar estado tras jugar
+        mostrarEstado();
+    }
+
+    private static void dormir() {
+
+        if (energia >= 10) {
+            System.out.println("No tengo sueño");
+        } else {
+            energia += 3;
+            if (energia > 10) {
+                energia = 10;
+            }
+            saciedad -= 3;
+            diversion -= 2;
+            System.out.println("😴 El tamagotchi ha dormido");
+        }
+
+        // Mostrar estado tras dormir
         mostrarEstado();
     }
 }
