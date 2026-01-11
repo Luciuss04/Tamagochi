@@ -6,6 +6,8 @@ build/
 .kotlin
 *.class
 .idea/
+repo_limpio/
+
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
