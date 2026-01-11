@@ -2,7 +2,6 @@ package org.example;
 
 public class Main {
 
-    // Variables de estado
     static int saciedad = 6;
     static int energia = 6;
     static int diversion = 6;
