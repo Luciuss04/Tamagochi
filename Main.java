@@ -11,8 +11,16 @@ public class Main {
 
         int opcion = menuPrincipal();
 
-        if (opcion == 1) {
-            mostrarEstado();
+        switch (opcion) {
+            case 1:
+                mostrarEstado();
+                break;
+            case 2:
+                comer();
+                break;
+            case 0:
+                System.out.println("Saliendo del juego...");
+                break;
         }
 
         System.out.println("Opción elegida: " + opcion);
