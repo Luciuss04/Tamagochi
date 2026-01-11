@@ -76,7 +76,24 @@ public class Main {
             System.out.println("🍽️ El tamagotchi ha comido");
         }
 
-        // Mostrar estado actualizado
+        mostrarEstado();
+    }
+
+    private static void jugar() {
+
+        if (diversion >= 10) {
+            System.out.println("Ahora no me apetece jugar");
+        } else {
+            diversion += 3;
+            if (diversion > 10) {
+                diversion = 10;
+            }
+            saciedad -= 1;
+            energia -= 1;
+            System.out.println("🎮 El tamagotchi ha jugado");
+        }
+
+        // Mostrar estado tras jugar
         mostrarEstado();
     }
 }
