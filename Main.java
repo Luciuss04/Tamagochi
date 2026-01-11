@@ -23,6 +23,9 @@ public class Main {
             case 4:
                 dormir();
                 break;
+            case 5:
+                banar();
+                break;
             case 0:
                 System.out.println("Saliendo del juego...");
                 break;
@@ -38,6 +41,7 @@ public class Main {
             System.out.println("2. Comer");
             System.out.println("3. Jugar");
             System.out.println("4. Dormir");
+            System.out.println("5. Bañar");
             System.out.println("----------------");
             System.out.println("0. Salir");
             System.out.print("Seleccione una opción del menú: ");
@@ -49,7 +53,7 @@ public class Main {
 
             opcion = sc.nextInt();
 
-        } while (opcion < 0 || opcion > 4);
+        } while (opcion < 0 || opcion > 5);
 
         return opcion;
     }
@@ -116,7 +120,21 @@ public class Main {
             System.out.println("😴 El tamagotchi ha dormido");
         }
 
-        // Mostrar estado tras dormir
+        mostrarEstado();
+    }
+
+    private static void banar() {
+
+        System.out.println("🧼 El tamagotchi se está bañando...");
+
+        diversion += 2;
+        if (diversion > 10) diversion = 10;
+
+        energia -= 1;
+        if (energia < 0) energia = 0;
+
+        System.out.println("🛁 El tamagotchi está limpio y feliz");
+
         mostrarEstado();
     }
 }
