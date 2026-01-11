@@ -107,9 +107,8 @@ public class Main {
             System.out.println("No tengo hambre");
         } else {
             saciedad += 3;
-            if (saciedad > 10) {
-                saciedad = 10;
-            }
+            if (saciedad > 10) saciedad = 10;
+
             diversion -= 1;
             System.out.println("🍽️ El tamagotchi ha comido");
         }
