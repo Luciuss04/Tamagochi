@@ -9,6 +9,11 @@ public class Main {
 
     public static void main(String[] args) {
         int opcion = menuPrincipal();
+
+        if (opcion == 1) {
+            mostrarEstado();
+        }
+
         System.out.println("Opción elegida: " + opcion);
     }
 
