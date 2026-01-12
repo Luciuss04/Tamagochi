@@ -132,7 +132,7 @@ public class Main {
             if (saciedad < 0) saciedad = 0;
             if (energia < 0) energia = 0;
 
-            System.out.println("🎮 El tamagotchi ha jugado");
+            System.out.println(" El tamagotchi ha jugado");
         }
 
         mostrarEstado();
