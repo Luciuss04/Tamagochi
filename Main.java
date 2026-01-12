@@ -55,7 +55,7 @@ public class Main {
             System.out.println("2. Comer");
             System.out.println("3. Jugar");
             System.out.println("4. Dormir");
-            System.out.println("5. Banar");
+            System.out.println("5. Bañar");
             System.out.println("----------------");
             System.out.println("0. Salir");
             System.out.print("Seleccione una opcion del menu: ");
@@ -174,7 +174,7 @@ public class Main {
         System.out.println("\nAccion: DORMIR");
 
         if (energia >= 10) {
-            System.out.println("No tengo sueno");
+            System.out.println("No tengo sueño");
         } else {
             System.out.println("Energia   +3");
             System.out.println("Saciedad  -3");
@@ -194,7 +194,7 @@ public class Main {
 
     private static void banar() {
 
-        System.out.println("\nAccion: BANAR");
+        System.out.println("\nAccion: BAÑAR");
 
         System.out.println("Diversion +2");
         System.out.println("Energia   -1");
