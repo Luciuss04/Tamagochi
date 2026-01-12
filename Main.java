@@ -24,7 +24,7 @@ public class Main {
                 dormir();
                 break;
             case 5:
-                banar();
+                bañar();
                 break;
             case 0:
                 System.out.println("Saliendo del juego...");
