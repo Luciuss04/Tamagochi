@@ -152,7 +152,7 @@ public class Main {
             if (saciedad < 0) saciedad = 0;
             if (diversion < 0) diversion = 0;
 
-            System.out.println("😴 El tamagotchi ha dormido");
+            System.out.println(" El tamagotchi ha dormido");
         }
 
         mostrarEstado();
