@@ -168,7 +168,7 @@ public class Main {
         energia -= 1;
         if (energia < 0) energia = 0;
 
-        System.out.println("🛁 El tamagotchi está limpio y feliz");
+        System.out.println(" El tamagotchi está limpio y feliz");
 
         mostrarEstado();
     }
