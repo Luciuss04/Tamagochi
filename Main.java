@@ -158,7 +158,7 @@ public class Main {
         mostrarEstado();
     }
 
-    private static void banar() {
+    private static void bañar() {
 
         System.out.println("🧼 El tamagotchi se está bañando...");
 
