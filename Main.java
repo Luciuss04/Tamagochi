@@ -160,7 +160,7 @@ public class Main {
 
     private static void bañar() {
 
-        System.out.println("🧼 El tamagotchi se está bañando...");
+        System.out.println(" El tamagotchi se está bañando...");
 
         diversion += 2;
         if (diversion > 10) diversion = 10;
