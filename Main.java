@@ -112,7 +112,7 @@ public class Main {
             diversion -= 1;
             if (diversion < 0) diversion = 0;
 
-            System.out.println("🍽️ El tamagotchi ha comido");
+            System.out.println(" El tamagotchi ha comido");
         }
 
         mostrarEstado();
